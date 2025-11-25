@@ -48,7 +48,7 @@ if (container) {
     })
     .catch(error => console.error("Erreur:", error));
 
-  // Filtre par continent
+
   Selection.addEventListener("change", function() {
     const selected = Selection.value;
     if (selected === "all") {
@@ -80,3 +80,4 @@ if (container) {
     }
   });
 }
+
